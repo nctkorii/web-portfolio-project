@@ -1,0 +1,222 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background-image: url('New\ Project\ \(4\)\ \(1\).png');
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  
+  img{
+    overflow: none;
+  }
+  
+  div{
+    display:block;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+  
+  .worldLinks{
+    padding: 4vh;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+
+
+  
+  
+  .worldLinks a{
+      font-family: "Ubuntu Sans Mono";
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      font-stretch: expanded;
+      transition-duration: 0.25s;
+    
+  }
+  
+  .worldLinks a:visited{
+      color: white;
+  }
+
+  .worldLinks a:active{
+    color: #53bcfc;
+  }
+  
+  .worldLinks a:hover{
+    color: #53bcfc;
+  }
+
+  
+  
+  #resumeImg{
+    height: 30px;
+    width: 30px;
+    margin-top: -3px;
+  }
+  
+
+  
+  
+  #logo{
+    position:fixed;
+    margin-left: -10vh;
+    margin-top: -85px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  #test{
+    margin-left: 90vh;
+  }
+
+  #resume{
+    margin-left: 3vh;
+  }
+  
+  .introText{
+    color: white;
+    margin-top: 25vh;
+    margin-left: 40vh;
+  }
+  
+  #text1{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    margin-bottom: 4vh;
+    color: #53bcfc;
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  
+  #name{
+    font-size: 70px;
+  }
+  
+  #description{
+    font-size: 50px;
+    color: #c4c3c2;
+    position: relative;
+    height: 100%;
+    width: 50ch;
+    animation: typing3 1.5s steps(22), blink3 .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes typing3 {
+    from {
+      width: 0
+    }
+    to{
+      opacity: 100%;
+    }
+  }
+  
+  #description2{
+    font-size: 20px;
+    color: #a3a3a3;
+    animation-name: move3;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-delay: 8s;
+    opacity: 0;
+  }
+  
+  @keyframes move3{
+    from{
+      top: 50px;
+      opacity: 0%;
+    }
+    to{
+      
+      top: -10px;
+      opacity: 100%;
+    }
+  }
+  
+  .start{
+    width: 10vh;
+    margin-top: 20px;
+    margin-left: 45vh;
+    animation-delay: 10s;
+    animation-name: opacity;
+    animation-fill-mode: forwards;
+    position: relative;
+    opacity: 0;
+    animation-duration: 2.2s;
+  }
+  
+  @keyframes opacity{
+    from{
+      opacity: 0%;
+    }
+    to{
+      opacity: 100%;
+    }
+  }
+  
+  #name{
+    animation-name: move;
+    animation-duration: 2s;
+    position: relative;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes move{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 100%;
+    }
+  }
+  
+  @keyframes move2{
+    from{
+  
+    }
+    to{
+      opacity: 100%;
+  
+    }
+  }

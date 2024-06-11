@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+img{
+  overflow: none;
+}
+
+div{
+  display:block;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+.worldLinks{
+  padding-top: 20px;
+  height: 100px;
+  background-color: #1966e3;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px -5px 20px 0px;
+}
+
+
+
+
+
+.worldLinks a{
+    font-family: "Ubuntu Sans Mono";
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    font-stretch: expanded;
+    transition-duration: 0.25s;
+
+}
+
+.worldLinks a:visited{
+    color: white;
+}
+
+.worldLinks a:active{
+  color: #53bcfc;
+}
+
+.worldLinks a:hover{
+  color: #53bcfc;
+}
+
+
+
+#resumeImg{
+  height: 30px;
+  width: 30px;
+  margin-top: -3px;
+}
+
+#logo{
+  margin-left: -10vh;
+  margin-top: -85px;
+  height: 200px;
+  width: 200px;
+}
+
+#test{
+  margin-left: 90vh;
+}
+
+
+#project12{
+  background-image: url('project4.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position-y: -1vh;
+  background-size: 1400px 600px;
+  color: white;
+}
+
+#project2{
+  background-image: url('project5.png');
+  object-fit: cover;
+  background-position: center;
+  background-size: 900px 400px;
+  background-repeat: no-repeat;
+}
+
+#project3{
+  background-image: url('project6.png');
+  object-fit: cover;
+  background-position-x: -37vh;
+  background-size: 1000px 400px;
+  background-repeat: no-repeat;
+  color:white;
+}
+
+#project4{
+  background-image: url('project7.png');
+  object-fit: cover;
+  background-position-x: -1vh;
+
+  background-repeat: no-repeat;
+  color:white;
+}
+
+#project5{
+  background-image: url('project1.png');
+  object-fit: cover;
+  background-position-x: -10vh;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  color:white;
+}
+
+#head1{
+  margin-top: 13vh;
+  text-align: center;
+  color: #011c61
+}
+
+#head2{
+  text-align: center;
+  color:#011c61;
+}
+
+#resumeImg{
+  height: 30px;
+  width: 30px;
+  margin-top: -3px;
+}
+

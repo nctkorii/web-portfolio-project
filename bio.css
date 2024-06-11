@@ -1,0 +1,259 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background-image: url('New\ Project\ \(4\)\ \(1\).png');
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  
+  img{
+    overflow: none;
+  }
+  
+  div{
+    display:block;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+  
+  .worldLinks{
+    padding: 4vh;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+
+
+  
+  
+  .worldLinks a{
+      font-family: "Ubuntu Sans Mono";
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      font-stretch: expanded;
+      transition-duration: 0.25s;
+    
+  }
+  
+  .worldLinks a:visited{
+      color: white;
+  }
+
+  .worldLinks a:active{
+    color: #53bcfc;
+  }
+  
+  .worldLinks a:hover{
+    color: #53bcfc;
+  }
+
+  
+  
+  #resumeImg{
+    height: 30px;
+    width: 30px;
+    margin-top: -3px;
+  }
+  
+  
+  #logo{
+    position:fixed;
+    margin-left: -10vh;
+    margin-top: -85px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  #test{
+    margin-left: 90vh;
+  }
+
+  #resume{
+    margin-left: 3vh;
+  }
+  
+  .introText{
+    color: white;
+    margin-top: -50vh;
+    margin-left: 70vh;
+  }
+  
+  #text1{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    margin-bottom: 1vh;
+    color: #53bcfc;
+    width: 68ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to{
+        opacity: 100%;
+    }
+  }
+  
+  #name{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    margin-bottom: 1vh;
+    color: #53bcfc;
+    width: 61ch;
+    animation: type 2s steps(22), blin .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes type {
+    from {
+      width: 0
+    }
+    to{
+        opacity: 100%
+    }
+  }
+  
+  #description{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    margin-bottom: 1vh;
+    color: #53bcfc;
+    width: 80ch;
+    animation: type 2s steps(22), blin .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes typing3 {
+    from {
+      width: 0
+    }
+    to{
+        opacity: 100%
+    }
+  }
+  
+  #description2{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    margin-bottom: 1vh;
+    color: #53bcfc;
+    width: 80ch;
+    animation: type 2s steps(22), blin .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes typing3 {
+    from {
+      width: 0
+    }
+    to{
+        opacity: 100%
+    }
+  }
+
+  #description3{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    margin-bottom: 1vh;
+    color: #53bcfc;
+    width: 90ch;
+    animation: type 2s steps(22), blin .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes typing3 {
+    from {
+      width: 0
+    }
+    to{
+        opacity: 100%
+    }
+  }
+
+  #description4{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    margin-bottom: 1vh;
+    color: #53bcfc;
+    width: 22ch;
+    animation: type 2s steps(22), blink  .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    border-right: 3px solid;
+  }
+  
+  @keyframes typing3 {
+    from {
+      width: 0
+    }
+    to{
+        opacity: 100%
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+  #profile{
+    margin-left: 20vh;
+    margin-top: 15vh;
+    animation-name: fadein;
+    animation-duration: 3s;
+  }
+
+  @keyframes fadein{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+  }
