@@ -6,6 +6,7 @@ html {
   body{
     background-image: url('New\ Project\ \(4\)\ \(1\).png');
     background-repeat: no-repeat;
+    object-fit: cover;
     margin: 0;
   }
   
@@ -204,10 +205,10 @@ html {
   
   @keyframes typing3 {
     from {
-      width: 0
+      width: 0;
     }
     to{
-        opacity: 100%
+        opacity: 100%;
     }
   }
 
@@ -256,4 +257,127 @@ html {
     to{
         opacity: 100%;
     }
+  }
+
+
+  .skillText{
+    margin-top: 10vh;
+    margin-left: 80vh;
+    color: white;
+    font-family: "Tiny5", sans-serif;
+  }
+
+  .skillText h1{
+    font-size: 30px;
+  }
+
+  .html1{
+    color: white;
+    font-family: "Tiny5", sans-serif;
+    margin-left: 85vh;
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+
+  @keyframes fade{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 100;
+    }
+  }
+
+  .html1 h1{
+    font-size: 15px;
+  }
+
+  .skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+  }
+
+  .outer{
+    height: 160px;
+    width:  160px;
+    padding: 20px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+  }
+
+  .inner{
+    height: 120px;
+    width: 120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orangered;
+    border-radius: 50%;
+  }
+  
+  circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 22px;
+    stroke-dasharray: 330;
+    stroke-dashoffset: 200;
+    animation: anim 2s linear forwards;
+  }
+
+  @keyframes anim{
+    100%{
+      stroke-dasharray: 600;
+    }
+  }
+
+  svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .skill2{
+    width: 160px;
+    height: 160px;
+    position: relative;
+  }
+
+  .outer2{
+    height: 160px;
+    width:  160px;
+    padding: 20px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+  }
+
+  .inner2{
+    height: 120px;
+    width: 120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orangered;
+    border-radius: 50%;
+  }
+  
+  #circle2{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 22px;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 200;
+    animation: anim2 2s linear forwards;
+  }
+
+  @keyframes anim2{
+    100%{
+      stroke-dasharray: 470;
+    }
+  }
+
+  svg{
+    position: absolute;
+    top: 0;
+    left: 0;
   }
