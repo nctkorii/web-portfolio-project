@@ -6,6 +6,9 @@ html {
   body{
     background-image: url('New\ Project\ \(4\)\ \(1\).png');
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     margin: 0;
   }
   
@@ -24,6 +27,7 @@ html {
   li{
     list-style-type: none;
   }
+  
 
   
   .worldLinks{

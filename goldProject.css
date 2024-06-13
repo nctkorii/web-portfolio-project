@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  img{
+    overflow: none;
+  }
+  
+  div{
+    display:block;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  li{
+    list-style-type: none;
+  }
+  
+  
+  .worldLinks{
+    padding-top: 20px;
+    height: 100px;
+    background-color: #1966e3;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -5px 20px 0px;
+  }
+  
+  
+  
+  
+  
+  .worldLinks a{
+      font-family: "Ubuntu Sans Mono";
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      font-stretch: expanded;
+      transition-duration: 0.25s;
+  
+  }
+  
+  .worldLinks a:visited{
+      color: white;
+  }
+  
+  .worldLinks a:active{
+    color: #53bcfc;
+  }
+  
+  .worldLinks a:hover{
+    color: #53bcfc;
+  }
+  
+  
+  
+  #resumeImg{
+    height: 30px;
+    width: 30px;
+    margin-top: -3px;
+  }
+  
+  #logo{
+    margin-left: -10vh;
+    margin-top: -85px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  #test{
+    margin-left: 90vh;
+  }
+
+  .title{
+    margin-top: 20vh;
+  }
+
+.section{
+  margin-top: 10vh;
+}
+
+.readmore {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  transition: 0.2s all ease;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.readmore:hover{
+  color:white;
+  background-color: black;
+}
+
+#image{
+  margin-bottom: 10vh;
+}
+
+
+
+
+#text2, #text1{
+  font-family: "Ubuntu Sans Mono";
+}

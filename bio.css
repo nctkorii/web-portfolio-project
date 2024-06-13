@@ -6,7 +6,9 @@ html {
   body{
     background-image: url('New\ Project\ \(4\)\ \(1\).png');
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
   }
   
