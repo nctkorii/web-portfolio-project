@@ -147,3 +147,15 @@ li{
   margin-top: -3px;
 }
 
+#who {
+  font-weight: bold;
+  color: #011c61;
+  text-align: center;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+
+#nameImage2, #nameImage1 {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
